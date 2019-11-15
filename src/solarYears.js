@@ -7,8 +7,8 @@ export class SolarAge {
     this.lifeExpectancy = 79;
   }
   ageCheck(){
-    if (this.userAge <= 0){
-      return "please give a number above 0";
+    if (this.userAge <= 0 || isNaN(this.userAge)){
+      return "please enter a real number, above 0";
     }
   }
 }
