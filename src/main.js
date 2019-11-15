@@ -5,7 +5,7 @@ import './styles.css';
 
 
 $(document).ready(function(){
-  $("#userInput").submit(function(event){
+  $("#userInputForm").submit(function(event){
     event.preventDefault();
   })
 });
