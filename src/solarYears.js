@@ -9,6 +9,7 @@ export class SolarAge {
       return "please give a number above 0";
     }
     else {
-
+      this.mercuryAge = Math.round(this.userAge * .24);
+      return this.mercuryAge;
+    }
   }
-}
