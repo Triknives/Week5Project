@@ -1,8 +1,9 @@
-import { SolarAge } from './../src/scripts.js';
+import { SolarAge } from './../src/solarYears.js';
 
-describe("SolarAge test", () => {
-  test("Mercury Age", () => {
-
-    expect(mercuryAge.getAge()).toEqual();
+describe("user starting age", () => {
+  test("Should return current user age", () => {
+    let age = new SolarAge(32);
+    console.log(age);
+    expect(age.userAge).toEqual(32);
   });
 });
