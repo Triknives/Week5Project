@@ -6,10 +6,10 @@ describe("test age on each planet", () => {
     let userAge = new SolarAge(32);
     expect(userAge.userAge).toEqual(32);
   });
-  test("should test 0 answers", () => {
-    let userAge = new SolarAge(0, "");
-    expect(userAge.ageCheck()).toEqual("please enter a real number, above 0");
-  });
+  // test("should test 0 answers", () => {
+  //   let userAge = new SolarAge(0, "");
+  //   expect(userAge.ageCheck()).toEqual("please enter a real number, above 0");
+  // });
   test("should calc mercury age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.mercuryAge).toEqual(8);

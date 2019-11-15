@@ -9,8 +9,9 @@ export class SolarAge {
     this.lifeExpectancy = 79;
   }
   earthLifeExpect(userAge, lifeExpectancy){
-    earthLifeExpect = Math.round(lifeExpectancy - this.userAge);
+    let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
       return earthLifeExpect;
     }
+  }
     // if (this.userAge <= 0 || isNaN(this.userAge)){
     //   return "please enter a real number, above 0";
