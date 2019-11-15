@@ -15,19 +15,26 @@ _Specs:
 *  If living past provided expectancy, years lived past expectancy will also be revealed.
 
 Solar Years Formula by planet:
-* A Mercury year is .24 Earth years.
-* A Venus year is .62 Earth years.
-* A Mars year is 1.88 Earth years.
-* A Jupiter year is 11.86 Earth years.
+* A Mercury year is .24 Earth years (88 days).
+* A Venus year is .62 Earth years (226 days).
+* A Mars year is 1.88 Earth years (686 days).
+* A Jupiter year is 11.86 Earth years (4329 days)
 
-Expected Outcomes:
-
+Expected Outcome examples:
+* Mercury (32 x 365)/88 = 133 years old (rounded).
+* Venus (32 x 365)/88 = 52 years old (rounded).
+* Mars (32 x 365)/88 = 17 years old (rounded).
+* Jupiter (32 x 365)/88 = 2.7 years old (rounded).
 
 ## Setup/Installation Requirements
 
 * Clone or download Git files provided.
 * Open with desired Text editor (I used Atom).
 * Set-up your own repositories, and branches to edit and add as needed.
+* Node.JS will be needed to utilize testing environment used for TDD process.
+* Webpack, and associated .JSON file have required dependencies.
+* "npm run install" will acquire needed packages and plugin associated with project.
+
 
 ## Known Bugs
 
@@ -42,6 +49,11 @@ If you have any concerns, comments or even suggestions on how to better organize
 * CSS
 * Java script.
 * jQuery (v4.2.1).
+* Boostrap4
+* Node.JS
+* Jest
+* lint
+* Babel
 
 This project was tasked to better continue exploration of prior CSS and HTML knowledge while further implementing JS and jQuery to the page to better enhance site functionality.
 
