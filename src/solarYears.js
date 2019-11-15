@@ -4,6 +4,7 @@ export class SolarAge {
     this.userAge = userAge;
     this.mercuryAge = Math.round(userAge * .24);
     this.marsAge = Math.round(userAge * 1.88);
+    this.venusAge = Math.round(userAge * .62);
     this.lifeExpectancy = 79;
   }
   ageCheck(){

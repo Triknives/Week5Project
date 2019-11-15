@@ -22,4 +22,8 @@ describe("test age on each planet", () => {
     let userAge = new SolarAge(32);
     expect(userAge.venusAge).toEqual(20);
   });
+  test("should calc jupiter age", () => {
+    let userAge = new SolarAge(32);
+    expect(userAge.venusAge).toEqual(380);
+  });
 });
