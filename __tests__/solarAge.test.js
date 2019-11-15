@@ -26,4 +26,8 @@ describe("test age on each planet", () => {
     let userAge = new SolarAge(32);
     expect(userAge.jupiterAge).toEqual(380);
   });
+  test("should subtract userAge from lifeExpectancy", () => {
+    let userAge = new SolarAge(32);
+    expect(userAge.earthLifeExpect()).toEqual(47);
+  });
 });
