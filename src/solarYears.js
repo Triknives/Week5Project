@@ -10,8 +10,17 @@ export class SolarAge {
   }
   earthLifeExpect(userAge, lifeExpectancy){
     let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
-      return earthLifeExpect;
-    }
+    return earthLifeExpect;
   }
+
+  mercuryLifeExpect(userAge, lifeExpectancy){
+    let mercuryLifeExpect = Math.round(this.lifeExpectancy - this.mercuryAge);
+    return mercuryLifeExpect;
+  }
+}
+
+
+
+
     // if (this.userAge <= 0 || isNaN(this.userAge)){
     //   return "please enter a real number, above 0";
