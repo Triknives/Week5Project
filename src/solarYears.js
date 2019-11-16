@@ -22,6 +22,11 @@ export class SolarAge {
     let marsLifeExpect = Math.round(this.lifeExpectancy - this.marsAge);
     return marsLifeExpect;
   }
+
+  venusLifeExpect(userAge, lifeExpectancy){
+    let venusLifeExpect = Math.round(this.lifeExpectancy - this.venusAge);
+    return venusLifeExpect;
+  }
 }
 
 
