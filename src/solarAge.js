@@ -1,4 +1,5 @@
 
+// object utilized to hold planet solar formula to put against user age
 export class SolarAge {
   constructor (userAge){
     this.userAge = userAge;
@@ -8,12 +9,14 @@ export class SolarAge {
     this.jupiterAge = Math.round(userAge * 11.86);
     this.lifeExpectancy = 79;
   }
+
+  //logic to assess user inputs and rule out NaN and less than 0 inputs.
   ageCheck(){
     if (this.userAge <= 0 || isNaN(this.userAge)){
       return "please enter a real number, above 0";
     }
   }
-
+  // logic to calculate years "left" after taking user's from each planet, and taking it from U.S based life life expectancy.
     earthLifeExpect(userAge, lifeExpectancy){
       let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
       return earthLifeExpect;
