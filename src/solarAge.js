@@ -18,22 +18,18 @@ export class SolarAge {
       let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
       return earthLifeExpect;
     }
-
     mercuryLifeExpect(userAge, lifeExpectancy){
       let mercuryLifeExpect = Math.round(this.lifeExpectancy - this.mercuryAge);
       return mercuryLifeExpect;
     }
-
     marsLifeExpect(userAge, lifeExpectancy){
       let marsLifeExpect = Math.round(this.lifeExpectancy - this.marsAge);
       return marsLifeExpect;
     }
-
     venusLifeExpect(userAge, lifeExpectancy){
       let venusLifeExpect = Math.round(this.lifeExpectancy - this.venusAge);
       return venusLifeExpect;
     }
-
     jupiterLifeExpect(userAge, lifeExpectancy){
       let jupiterLifeExpect = Math.round(this.lifeExpectancy - this.jupiterAge);
       return jupiterLifeExpect;

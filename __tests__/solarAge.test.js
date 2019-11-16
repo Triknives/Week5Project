@@ -1,7 +1,6 @@
 import { SolarAge } from './../src/solarAge.js';
 
 describe("test age on each planet", () => {
-
   test("Should return current user age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.userAge).toEqual(32);
@@ -10,19 +9,19 @@ describe("test age on each planet", () => {
     let userAge = new SolarAge(0, "");
     expect(userAge.ageCheck()).toEqual("please enter a real number, above 0");
   });
-  test("should calc mercury age", () => {
+  test("should calc Mercury age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.mercuryAge).toEqual(8);
   });
-  test("should calc mars age", () => {
+  test("should calc Mars age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.marsAge).toEqual(60);
   });
-  test("should calc venus age", () => {
+  test("should calc Venus age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.venusAge).toEqual(20);
   });
-  test("should calc jupiter age", () => {
+  test("should calc Jupiter age", () => {
     let userAge = new SolarAge(32);
     expect(userAge.jupiterAge).toEqual(380);
   });
