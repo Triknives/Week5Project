@@ -30,4 +30,8 @@ describe("test age on each planet", () => {
     let userAge = new SolarAge(32);
     expect(userAge.earthLifeExpect()).toEqual(47);
   });
+  test("should subtract mercuryAge from lifeExpectancy", () => {
+    let userAge = new SolarAge(32);
+    expect(userAge.mercuryLifeExpect()).toEqual(71);
+  });
 });
