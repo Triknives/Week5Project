@@ -38,3 +38,5 @@ export class SolarAge {
       return jupiterLifeExpect;
     }
   }
+ // Site Javascript.info helped with better conceptualizing anatomy of a Class,
+// and multiple Methods syntax. 
