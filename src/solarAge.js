@@ -8,38 +8,34 @@ export class SolarAge {
     this.jupiterAge = Math.round(userAge * 11.86);
     this.lifeExpectancy = 79;
   }
-
-
-
-
-  earthLifeExpect(userAge, lifeExpectancy){
-    let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
-    return earthLifeExpect;
+  ageCheck(){
+    if (this.userAge <= 0 || isNaN(this.userAge)){
+      return "please enter a real number, above 0";
+    }
   }
 
-  mercuryLifeExpect(userAge, lifeExpectancy){
-    let mercuryLifeExpect = Math.round(this.lifeExpectancy - this.mercuryAge);
-    return mercuryLifeExpect;
+    earthLifeExpect(userAge, lifeExpectancy){
+      let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
+      return earthLifeExpect;
+    }
+
+    mercuryLifeExpect(userAge, lifeExpectancy){
+      let mercuryLifeExpect = Math.round(this.lifeExpectancy - this.mercuryAge);
+      return mercuryLifeExpect;
+    }
+
+    marsLifeExpect(userAge, lifeExpectancy){
+      let marsLifeExpect = Math.round(this.lifeExpectancy - this.marsAge);
+      return marsLifeExpect;
+    }
+
+    venusLifeExpect(userAge, lifeExpectancy){
+      let venusLifeExpect = Math.round(this.lifeExpectancy - this.venusAge);
+      return venusLifeExpect;
+    }
+
+    jupiterLifeExpect(userAge, lifeExpectancy){
+      let jupiterLifeExpect = Math.round(this.lifeExpectancy - this.jupiterAge);
+      return jupiterLifeExpect;
+    }
   }
-
-  marsLifeExpect(userAge, lifeExpectancy){
-    let marsLifeExpect = Math.round(this.lifeExpectancy - this.marsAge);
-    return marsLifeExpect;
-  }
-
-  venusLifeExpect(userAge, lifeExpectancy){
-    let venusLifeExpect = Math.round(this.lifeExpectancy - this.venusAge);
-    return venusLifeExpect;
-  }
-
-  jupiterLifeExpect(userAge, lifeExpectancy){
-    let jupiterLifeExpect = Math.round(this.lifeExpectancy - this.jupiterAge);
-    return jupiterLifeExpect;
-  }
-}
-
-
-
-
-    // if (this.userAge <= 0 || isNaN(this.userAge)){
-    //   return "please enter a real number, above 0";
