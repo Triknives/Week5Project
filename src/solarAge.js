@@ -8,6 +8,10 @@ export class SolarAge {
     this.jupiterAge = Math.round(userAge * 11.86);
     this.lifeExpectancy = 79;
   }
+
+
+
+
   earthLifeExpect(userAge, lifeExpectancy){
     let earthLifeExpect = Math.round(this.lifeExpectancy - this.userAge);
     return earthLifeExpect;
@@ -26,6 +30,11 @@ export class SolarAge {
   venusLifeExpect(userAge, lifeExpectancy){
     let venusLifeExpect = Math.round(this.lifeExpectancy - this.venusAge);
     return venusLifeExpect;
+  }
+
+  jupiterLifeExpect(userAge, lifeExpectancy){
+    let jupiterLifeExpect = Math.round(this.lifeExpectancy - this.jupiterAge);
+    return jupiterLifeExpect;
   }
 }
 

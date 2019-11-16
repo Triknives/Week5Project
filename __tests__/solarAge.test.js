@@ -1,4 +1,4 @@
-import { SolarAge } from './../src/solarYears.js';
+import { SolarAge } from './../src/solarAge.js';
 
 describe("test age on each planet", () => {
 
@@ -44,6 +44,6 @@ describe("test age on each planet", () => {
   });
   test("should subtract jupiterAge from lifeExpectancy", () => {
     let userAge = new SolarAge(32);
-    expect(userAge.jupiterLifeExpect()).toEqual(-300);
+    expect(userAge.jupiterLifeExpect()).toEqual(-301);
   });
 });
