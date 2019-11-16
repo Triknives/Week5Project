@@ -1,4 +1,4 @@
-#_Solar age by planet!
+_Solar Age By Planet!
 
 #### The purpose of this project is to create a an application that will calculate the users age based on a planet's solar year. It will also provide insight on the suspected life expectancy of the users based on age entered, and demographic. 11/15/2019
 
@@ -6,17 +6,12 @@
 
 ## Description
 This application will be able to take in the users age, and demographic as mentioned and provide an updated age for the following planets:
-*Mercury
-*Venus
-*Mars
-*Jupiter.
- Each of the ages will be based on the solar year of each planet. The expected outcomes and math associated with be better described in the expected outcomes, and specs portion of this read me._
+Mercury, Venus, Mars and Jupiter. Each of the ages will be based on the solar year of each planet. The expected outcomes and math associated with be better described in the expected outcomes, and specs portion of this read me.
 
-_Specs:
+Specs:
 *  User will enter their current age.
 *  User age will be plugged in to formula for each planet (Mercury, Venus, Mars and Jupiter) and have their age returned.
 *  User will also have a projected life expectancy, calculated by substracting current age by planet from United States general life expectancy (79 years will be used and applied to all planets).
-
 
 Solar Years Formula by planet:
 * A Mercury year is .24 Earth years.
@@ -64,4 +59,4 @@ This project was a challenge to better practice, and implement the use of Constr
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2019 **_{Brett Cordell}_**
+Copyright (c) 2019 ** _{Brett Cordell}**
